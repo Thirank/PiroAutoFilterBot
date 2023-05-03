@@ -209,16 +209,16 @@ Message <b>: {}</b>"""
 
 🖇 <em>File Size</em>: <code>{file_size}</code> 
 
-❤️‍🔥 </i>Join</i> [𝗕𝗟𝗔𝗦𝗧𝗘𝗥 𝗟𝗜𝗡𝗞𝗭](https://t.me/blaster_linkz)  
+❤️‍🔥 </i>Update</i> [𝐌𝐂 𝐔𝐏𝐃𝐀𝐓𝐄](https://t.me/Mc_Films_Update)  
 
-🖥 <i>Requests</i> - ||@raixpiro_bot|| """
+🖥 <i>Requests</i> - ||@Mc_Group_Films|| """
 
     IMDB_TEMPLATE_TXT = """
 🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> 
 🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10  
 🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} 
 
-🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [[𝖯𝖨𝖱𝖮]](t.me/piroxbots)"""
+🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [[𝗠𝗖 𝗙𝗜𝗟𝗠𝗦]](t.me/Mc_Film_Mainchannel)"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
