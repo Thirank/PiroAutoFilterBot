@@ -120,9 +120,10 @@ async def next_page(bot, query):
             btn.insert(0, 
             [
                 InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info'),
-                InlineKeyboardButton(f'⚜️ Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series')
+                
+                InlineKeyboardButton(f'📟 Movie', 'movie'),
+                InlineKeyboardButton(f'🔰 Series', 'series'),
+                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
             ]
             )
 
@@ -153,9 +154,10 @@ async def next_page(bot, query):
             btn.insert(0, 
             [
                 InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info'),
-                InlineKeyboardButton(f'⚜️ Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series')
+                
+                InlineKeyboardButton(f'📟 Movie', 'movie'),
+                InlineKeyboardButton(f'🔰 Series', 'series'),
+                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
             ]
             )
     try:
@@ -1332,19 +1334,21 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, 
             [
                 InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info'),
-                InlineKeyboardButton(f'⚜️ Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series')
+                
+                InlineKeyboardButton(f'📟 Movie', 'movie'),
+                InlineKeyboardButton(f'🔰 Series', 'series'),
+                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
             ]
             )
 
         else:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info'),
-                InlineKeyboardButton(f'⚜️ Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series')
+                IInlineKeyboardButton(f'😇 Info', 'tips'),
+                
+                InlineKeyboardButton(f'📟 Movie', 'movie'),
+                InlineKeyboardButton(f'🔰 Series', 'series'),
+                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
             ]
             )
                 
@@ -1356,12 +1360,10 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, 
             [
                 InlineKeyboardButton(f'😇 Info', 'tips'),
-
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info'),
-
-                InlineKeyboardButton(f'⚜️ Movie', 'movie'),
-
-                InlineKeyboardButton(f'🔰 Series', 'series')
+                
+                InlineKeyboardButton(f'📟 Movie', 'movie'),
+                InlineKeyboardButton(f'🔰 Series', 'series'),
+                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
             
             ]
             )
@@ -1370,12 +1372,10 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, 
             [
                 InlineKeyboardButton(f'😇 Info', 'tips'),
-
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info'),
-
-                InlineKeyboardButton(f'⚜️ Movie', 'movie'),
-
-                InlineKeyboardButton(f'🔰 Series', 'series')
+                
+                InlineKeyboardButton(f'📟 Movie', 'movie'),
+                InlineKeyboardButton(f'🔰 Series', 'series'),
+                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
             ])
             
                       
