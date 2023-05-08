@@ -131,9 +131,10 @@ async def next_page(bot, query):
             btn.insert(0, 
             [
                 InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info'),
-                InlineKeyboardButton(f'⚜️ Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series')            ]
+                
+                InlineKeyboardButton(f'📟 Movie', 'movie'),
+                InlineKeyboardButton(f'🔰 Series', 'series'),
+                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')            ]
             )
                 
     except KeyError:
@@ -144,9 +145,10 @@ async def next_page(bot, query):
             btn.insert(0, 
             [
                 InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info'),
-                InlineKeyboardButton(f'⚜️ Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series')
+                
+                InlineKeyboardButton(f'📟 Movie', 'movie'),
+                InlineKeyboardButton(f'🔰 Series', 'series'),
+                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
             ]
             )
 
