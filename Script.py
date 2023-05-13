@@ -191,7 +191,10 @@ Request Again"""
 
 ○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/Mc_Group_Films'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>
 """
-
+   SUPPORT_TEXT = """
+  
+   
+    
     NORSLTS = """
 #NoResults 
 
