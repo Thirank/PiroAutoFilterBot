@@ -918,7 +918,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('💠 Hᴇʟᴘ 💠', callback_data='help'),
                     InlineKeyboardButton('♻️ Aʙᴏᴜᴛ ♻️', callback_data='about'),
                 ],[
-                    InlineKeyboardButton('🔎 𝖨𝗇𝗅𝗂𝗇𝖾 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('🎭 Mᴄ Hᴅ Oғғɪᴄɪᴀʟ 🎭', url=f"https://t.me/Mc_Film_Mainchannel")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
