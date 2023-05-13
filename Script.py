@@ -192,8 +192,16 @@ Request Again"""
 ○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/Mc_Group_Films'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>
 """
    SUPPORT_TEXT = """
-  
-   
+  🦋 CHANNEL & GROUPS MODULE  🦋
+
+»COMPLETE MOVIE REQUESTING GROUP.
+
+»ALL LANGUAGE MOVIES & SERIES.
+
+»ALL UPCOMING MOVIES & SERIES UPDATED.
+
+»JOIN AND SUPPORT.
+"""   
     
     NORSLTS = """
 #NoResults 
