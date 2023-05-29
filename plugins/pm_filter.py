@@ -97,7 +97,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                   text=f"🔖{get_size(file.file_size)}🔮{file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                   text=f"📂{get_size(file.file_size)}♦️{file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -119,22 +119,22 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
+                InlineKeyboardButton(f'😇 Iɴғᴏ', 'tips'),
                 
-                InlineKeyboardButton(f'📟 Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'movie'),
+                InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'series'),
+                InlineKeyboardButton(f'📝 Tɪᴘs', 'info')
             ]
             )
 
         else:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
+                InlineKeyboardButton(f'😇 Iɴғᴏ', 'tips'),
                 
-                InlineKeyboardButton(f'📟 Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')            ]
+                InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'movie'),
+                InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'series'),
+                InlineKeyboardButton(f'📝 Tɪᴘs', 'info')            ]
             )
                 
     except KeyError:
@@ -144,22 +144,22 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
+                InlineKeyboardButton(f'😇 Iɴғᴏ', 'tips'),
                 
-                InlineKeyboardButton(f'📟 Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'movie'),
+                InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'series'),
+                InlineKeyboardButton(f'📝 Tɪᴘs', 'info')
             ]
             )
 
         else:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
+                InlineKeyboardButton(f'😇 Iɴғᴏ', 'tips'),
                 
-                InlineKeyboardButton(f'📟 Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'movie'),
+                InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'series'),
+                InlineKeyboardButton(f'📝 Tɪᴘs', 'info')
             ]
             )
     try:
@@ -902,7 +902,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == 'movie':
         await query.answer("𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐅𝐨𝐫𝐦𝐚𝐭\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : Vikram 2022,🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)", True)
         
-    elif query.data == 'Series':
+    elif query.data == 'series':
         await query.answer("𝐒𝐞𝐫𝐢𝐞𝐬 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐅𝐨𝐫𝐦𝐚𝐭\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\n𝖥𝗋𝗂𝖾𝗇𝖽𝗌 𝗌03 1080𝗉,𝖣𝖺𝗋𝗄 𝗌01,🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)",True)
     
     elif query.data == 'info':
@@ -1311,7 +1311,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🔖{get_size(file.file_size)}🔮{file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"📂{get_size(file.file_size)}♦️{file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -1335,22 +1335,22 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
+                InlineKeyboardButton(f'😇 Iɴғᴏ', 'tips'),
                 
-                InlineKeyboardButton(f'📟 Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'movie'),
+                InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'series'),
+                InlineKeyboardButton(f'📝 Tɪᴘs', 'info')
             ]
             )
 
         else:
             btn.insert(0, 
             [
-                IInlineKeyboardButton(f'😇 Info', 'tips'),
+                IInlineKeyboardButton(f'😇 Iɴғᴏ', 'tips'),
                 
-                InlineKeyboardButton(f'📟 Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'movie'),
+                InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'series'),
+                InlineKeyboardButton(f'📝 Tɪᴘs', 'info')
             ]
             )
                 
@@ -1361,11 +1361,11 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
+                InlineKeyboardButton(f'😇 Iɴғᴏ', 'tips'),
                 
-                InlineKeyboardButton(f'📟 Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'movie'),
+                InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'series'),
+                InlineKeyboardButton(f'📝 Tɪᴘs', 'info')
             
             ]
             )
@@ -1373,11 +1373,11 @@ async def auto_filter(client, msg, spoll=False):
         else:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
+                InlineKeyboardButton(f'😇 Iɴғᴏ', 'tips'),
                 
-                InlineKeyboardButton(f'📟 Movie', 'movie'),
-                InlineKeyboardButton(f'🔰 Series', 'series'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'movie'),
+                InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'series'),
+                InlineKeyboardButton(f'📝 Tɪᴘs', 'info')
             ])
             
                       
@@ -1412,7 +1412,7 @@ async def auto_filter(client, msg, spoll=False):
                 )
     else:
         btn.append(
-            [InlineKeyboardButton(text="❌ 𝖭𝗈 𝖬𝗈𝗋𝖾 𝖯𝖺𝗀𝖾𝗌 𝖠𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾 ! ❌",callback_data="pages")]
+            [InlineKeyboardButton(text="❌ 𝐍𝐎 𝐌𝐎𝐑𝐄 𝐏𝐀𝐆𝐄𝐒 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 ! ❌",callback_data="pages")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
